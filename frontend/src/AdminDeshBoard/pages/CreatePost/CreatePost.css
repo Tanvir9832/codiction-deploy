@@ -1,0 +1,41 @@
+
+.createPost{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 26, 53 ,1);
+    color: #f2702f;
+    height: 70vh;
+    padding: 20px 0px;
+}
+
+#courseDes{
+    height: 60px;
+}
+.createPost_heading{
+    text-align: center;
+}
+
+.createPost_input{
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #f2702f;
+    outline: none;
+}
+
+.courseStatus{
+    display: flex;
+    gap: 15px;
+}
+
+input[type="file"]::-webkit-file-upload-button{
+    background: #f2702f;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,129 @@
+
+.navbar{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.navbar_inside , .navbar_first{
+    display: grid;
+    grid-template-columns : 1fr 1fr;
+}
+
+.navbar_first_inside ,.navbar_second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+    font-size: large;
+}
+
+
+.navbar_second{
+    justify-content: end;
+
+}
+
+.notLogin{
+    display: flex;
+    gap: 20px;
+}
+
+.Navbar_logo{
+    max-width :150px;
+    height: auto;
+}
+
+.logOut_button{
+    background: rgba(0, 26, 53 ,1);
+    color: #ffffff;
+    margin-bottom: 4px;
+    font-weight: bolder;
+    border: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+.link{
+    text-decoration: none;
+    font-weight: bolder;
+    color : #ffffff;
+    margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width : 700px) {
+    .Navbar_logo{
+        max-width :100px;
+        height: auto;
+    }
+}
+@media (max-width : 666px) {
+    .link{
+        font-size: small;
+
+    }
+    .logOut_button{
+        font-size: small;
+    }
+}
+
+@media (max-width : 900px) {
+    .navbar_first_inside{
+        display: none;
+    }
+    .navbar_second{
+        display: none;
+    }
+    .navbar_inside{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+.menu{
+    width: 100%;
+    height: 0vh;
+    background-color: rgba(0, 26, 53 ,1);
+    position: fixed;
+    z-index: 1;
+    transition :all 1s ease;
+    display: none;
+
+}
+.menuUpdated{
+    margin-top: -10px;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 26, 53 ,1);
+    position: fixed;
+    z-index: 1;
+    transition :all 0.5s ease;
+    display: block;
+
+}
+
+.Alllinks{
+    padding: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.newLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (min-width : 900px) {
+    .icon{
+        display: none;
+    }
+
+}
