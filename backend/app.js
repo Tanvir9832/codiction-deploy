@@ -44,14 +44,14 @@ cloudinary.config({
 })
 
 
-app.use(express.static(path.join(__dirname, "./frontend/dist")));
+// app.use(express.static(path.join(__dirname, "./frontend/dist")));
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./frontend/dist/index.html")),
-    function (err) {
-      res.status(500).send(err);
-    };
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "./frontend/dist/index.html")),
+//     function (err) {
+//       res.status(500).send(err);
+//     };
+// });
 
 
 //! app Listen Functions
