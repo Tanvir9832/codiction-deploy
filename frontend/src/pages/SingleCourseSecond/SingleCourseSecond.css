@@ -19,8 +19,16 @@
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     .singlecoursesecond{
-        margin-top: 20px;
+        margin: 0;
+        padding: 0px 20px 50px 50px;
+        background: rgba(0, 26, 53 ,1);
+        display: flex;
+
+    }
+    .courseDesciption{
+        font-size: 17px;
+        font-weight: normal;
     }
 }

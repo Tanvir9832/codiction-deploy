@@ -110,7 +110,6 @@ const Navbar = () => {
             </button>
           ) : null}
         </div>
-        <div></div>
       </div>
     </>
   );

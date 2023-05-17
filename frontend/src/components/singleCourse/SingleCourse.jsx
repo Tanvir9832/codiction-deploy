@@ -24,8 +24,8 @@ const SingleCourse = () => {
     <div className="singleCourse">
       <Navbar />
     <div className="singleCourseComponents">
-        <SingleCourseFirst id={id} />
-        <SingleCourseSecond  />
+        <SingleCourseFirst className="f" id={id} />
+        <SingleCourseSecond className="s" />
     </div>
     </div>
   )
